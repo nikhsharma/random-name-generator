@@ -1,3 +1,4 @@
+import com.sun.corba.se.spi.ior.ObjectKey;
 import spark.ModelAndView;
 import spark.template.velocity.VelocityTemplateEngine;
 
@@ -19,6 +20,13 @@ public class NameGeneratorContoller {
         NameGenerator.addNameToList("Fob");
         NameGenerator.addNameToList("Lob");
         NameGenerator.addNameToList("Tob");
+
+        get("/random-a-tron", (req, res) -> {
+            HashMap<String, Object> model = new HashMap<>();
+            model.put("names", NameGenerator.getNames());
+            model.put("template", "random-a-tron.vtl");
+            return new ModelAndView(model, "layout.vtl");
+        }, velocityTemplateEngine);
 
         get("/one_random_name", (req, res) -> {
             String name = NameGenerator.oneRandomName();
