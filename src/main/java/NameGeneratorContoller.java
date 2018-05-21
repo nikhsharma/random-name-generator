@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import static spark.Spark.get;
+import static spark.Spark.post;
 
 public class NameGeneratorContoller {
 
@@ -28,7 +29,19 @@ public class NameGeneratorContoller {
             return new ModelAndView(model, "layout.vtl");
         }, velocityTemplateEngine);
 
-        get("/one_random_name", (req, res) -> {
+        get("/random-a-tron/create", (req, res) -> {
+            HashMap<String, Object> model = new HashMap<>();
+            model.put("template", "create.vtl");
+            return new ModelAndView(model, "layout.vtl");
+        }, velocityTemplateEngine);
+
+        post("/random-a-tron", (req, res) -> {
+            NameGenerator.addNameToList(req.queryParams("name"));
+            res.redirect("/random-a-tron");
+            return "";
+        });
+
+        get("/one", (req, res) -> {
             String name = NameGenerator.oneRandomName();
             HashMap<String, Object> model = new HashMap<>();
             model.put("name", name);
@@ -36,7 +49,7 @@ public class NameGeneratorContoller {
             return new ModelAndView(model, "layout.vtl");
         }, velocityTemplateEngine);
 
-        get("/two_random_names", (req, res) -> {
+        get("/two", (req, res) -> {
             ArrayList<String> names = NameGenerator.twoRandomNames();
             HashMap<String, Object> model = new HashMap<>();
             model.put("name1", names.get(0));
