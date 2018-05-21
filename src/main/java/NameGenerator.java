@@ -1,14 +1,15 @@
 import java.util.ArrayList;
 
 public class NameGenerator {
-    private ArrayList<String> names;
+    private static ArrayList<String> names = new ArrayList<String>();
 
-    public NameGenerator() {
-        this.names = new ArrayList<String>();
+
+    public static ArrayList<String> getNames() {
+        return names;
     }
 
-    public ArrayList<String> getNames() {
-        return names;
+    public static void addNameToList(String name) {
+        names.add(name);
     }
 
 }
