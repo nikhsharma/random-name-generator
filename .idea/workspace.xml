@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fb870e1-cea6-4b59-8d87-877921dcbd9a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/NameGeneratorTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/RandomATron6000.iml" afterPath="$PROJECT_DIR$/RandomATron6000.iml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NameGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/NameGenerator.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NameGeneratorTest.java" afterPath="$PROJECT_DIR$/src/test/java/NameGeneratorTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,29 +27,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NameGenerator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NameGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NameGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
-                <element signature="e#116#124#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#146#154#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NameGeneratorTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NameGeneratorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/NameGeneratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="311">
+              <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,8 +79,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/NameGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/NameGenerator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NameGeneratorTest.java" />
       </list>
     </option>
   </component>
@@ -132,7 +134,29 @@
               <item name="RandomATron6000" type="b2602c69:ProjectViewProjectNode" />
               <item name="RandomATron6000" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RandomATron6000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RandomATron6000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RandomATron6000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RandomATron6000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RandomATron6000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RandomATron6000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="NameGeneratorTest" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -288,16 +312,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NameGeneratorTest - 2018.05.21 at 15h 22m 22s.xml">
+    <history-entry file="NameGeneratorTest - 2018.05.21 at 15h 38m 54s.xml">
       <configuration name="NameGeneratorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NameGeneratorTest - 2018.05.21 at 15h 22m 52s.xml">
+    <history-entry file="NameGeneratorTest - 2018.05.21 at 15h 40m 08s.xml">
       <configuration name="NameGeneratorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NameGeneratorTest - 2018.05.21 at 15h 22m 57s.xml">
+    <history-entry file="NameGeneratorTest - 2018.05.21 at 15h 40m 33s.xml">
       <configuration name="NameGeneratorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NameGeneratorTest - 2018.05.21 at 15h 24m 38s.xml">
+    <history-entry file="NameGeneratorTest - 2018.05.21 at 15h 40m 58s.xml">
+      <configuration name="NameGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NameGeneratorTest - 2018.05.21 at 15h 41m 07s.xml">
+      <configuration name="NameGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NameGeneratorTest - 2018.05.21 at 15h 41m 59s.xml">
+      <configuration name="NameGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NameGeneratorTest - 2018.05.21 at 15h 42m 10s.xml">
+      <configuration name="NameGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NameGeneratorTest - 2018.05.21 at 15h 42m 21s.xml">
+      <configuration name="NameGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NameGeneratorTest - 2018.05.21 at 15h 42m 40s.xml">
+      <configuration name="NameGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NameGeneratorTest - 2018.05.21 at 15h 42m 47s.xml">
       <configuration name="NameGeneratorTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -307,13 +349,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -361,26 +403,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NameGeneratorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/NameGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#146#154#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NameGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/NameGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="311">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
           <folding>
-            <element signature="e#116#124#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
           </folding>
         </state>
       </provider>
