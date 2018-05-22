@@ -8,11 +8,13 @@ import java.util.HashMap;
 
 import static spark.Spark.get;
 import static spark.Spark.post;
+import static spark.SparkBase.staticFileLocation;
 
 public class NameGeneratorContoller {
 
     public static void main(String[] args) {
         VelocityTemplateEngine velocityTemplateEngine = new VelocityTemplateEngine();
+        staticFileLocation("public");
 
         NameGenerator.addNameToList("Bob");
         NameGenerator.addNameToList("Sob");
